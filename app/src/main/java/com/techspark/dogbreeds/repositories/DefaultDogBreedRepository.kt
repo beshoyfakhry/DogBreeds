@@ -7,7 +7,6 @@ import com.techspark.dogbreeds.utils.Resource
 import javax.inject.Inject
 
 class DefaultDogBreedRepository @Inject constructor(
-
     private val dogsAPI: DogsAPI
 ) : DogBreedRepository {
 
